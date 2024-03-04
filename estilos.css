@@ -1,0 +1,215 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Lexend+Deca:wght@100&family=PT+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Roboto:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lexend+Deca:wght@100&family=PT+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Roboto+Slab:wght@100..900&family=Roboto:wght@300&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Lexend+Deca:wght@100&family=PT+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Roboto+Slab:wght@100..900&family=Roboto:wght@300&display=swap')
+
+/* font-family: "Roboto", sans-serif;  jumbo*/
+
+*{
+    font-family: "PT Sans", sans-serif;
+    box-sizing: border-box;
+    
+}
+*{
+    box-sizing: border-box;
+}
+
+
+
+.navbar{
+    background-color: rgb(6, 6, 122);
+
+    height: 170px;
+}
+.navbar-brand{
+    color: white!important;
+    text-shadow: 0 0 5px;
+    font-size: 30px;
+}
+.navbar-brand:hover{
+    color: black !important;
+}
+.navbar-brand img{
+    height: 80px;
+    margin: 15px;
+    
+
+}
+.collapse navbar-collapse{
+    display: flex;
+    justify-content: center;
+}
+ .navbar-collapse{
+    
+/* display: flex !important; */
+    /* justify-content:flex-end !important; */
+    padding: 30px;
+    
+}
+.nav-link{
+    color: white !important;
+    text-shadow: 0 0 5px;
+    font-size: 20px;
+}
+.nav-link:hover{
+    color: black !important;
+}
+.jumbotron{
+    height: 450px;
+    background-image: url(./multimedia/fondo1.jpg);
+    background-size: cover;
+    background-position: center;
+    font-weight: bold;
+    font-family: "Roboto", sans-serif;
+    margin-bottom: 0px !important;
+}
+.jumbotron h1{
+    font-family: "Roboto", sans-serif;
+    font-size: 30px;
+    color: rgb(7, 7, 44);
+    font-weight: bold;
+    
+}
+.jumbotron p{
+    font-family: "Roboto", sans-serif;
+    font-size: 15px;
+    color: rgb(2, 2, 48);
+    font-weight: bold;
+    /* float: right !important; */
+    margin-bottom: 0px !important;
+}
+h2{
+    text-align:center;
+    background-color: rgb(6, 6, 122);
+    padding: 20px;
+    font-weight: bold;
+text-shadow: 0 0 5px;
+margin-bottom: 0;
+color: white;
+margin-top: 0px;
+}
+.nleft{
+    background-image: url(./multimedia/chipa3.jpg);
+    height: 350px;
+    background-position: center;
+    background-size: cover;
+    overflow: scroll;
+}
+.nright{
+    padding: 20px;
+    /* background-image: url(./multimedia/fondo2.jpg); */
+    /* height: 350px; */
+    /* background-position: center; */
+    /* background-size: cover; */
+    background-color: rgba(128, 128, 128, 0.342);
+    text-shadow: 5px 5px 5px;
+}
+.articulo1{
+    border: solid black 5px;
+    height: 300px;
+    text-align: center;
+    background-image: url(./multimedia/chipa1.jpg);
+    background-position: center;
+    background-size: cover;    
+    margin-bottom: 0px;
+    color:white;
+}
+.articulo2{
+    background-image: url(./multimedia/torta1.jpg);
+    background-position: center;
+    background-size: cover;
+    text-align: center;
+    margin-bottom: 0px;
+    border: solid 5px black;
+    height: 300px;
+    color:white;
+}
+.articulo3{
+    background-image: url(./multimedia/postre.jpg);
+    background-position: right;
+    background-size: cover;
+    text-align: center;
+    margin-bottom: 0px;
+    border: solid 5px black;
+    height: 300px;
+    color: white;
+}
+
+.articulo i{
+    font-size: 35px;
+    color: blue;
+
+}
+h1{
+    /* text-shadow: 5px 5px 5px; */
+    color: white !important;
+    font-size: 20px !important;
+}
+h4{
+    margin-bottom: 20px;
+}
+footer{
+    color:white;
+    text-shadow: 0 0 5px;
+    text-align: center;
+    padding: 30px;
+    font-size: 30px;
+    background-color: black     ;
+    margin-top: 0px;
+    
+}
+footer a{
+    text-decoration: none;
+    letter-spacing: 15px;
+    color: blue;
+    font-size: 50px;
+}
+/* nosotros */
+.nmain{
+    display: flex;}
+
+  .nprueba{
+    background-image: url(./multimedia/Nosotros.jpg);
+    background-position: center;
+    background-size: cover;
+    
+
+  }
+  .nfirst p{
+    text-align: center;
+    color: rgba(0, 0, 128, 0.514);
+    margin-top: 50px;
+    margin-left: 10px;
+    margin-right: 10px;
+    font-size: 20px;
+    font-weight: bold;
+    overflow: hidden;
+  }
+    .nfirst{
+        background-image: url(./multimedia/noschipa.jpg);
+        background-position: center;
+        background-size: cover;
+        height: 450px;
+        overflow:auto   ;
+    }
+    .nsecond{
+        background-image: url(./multimedia/chipa\ 2.jpg);
+        background-position: center;
+        background-size: cover;
+    }
+    
+
+    /* @media only screen and (min-width: 480px){ 
+
+    .navbar {
+        height: 400px;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        
+        align-items: center;
+        margin-top: 0px;
+        
+}*/
+    
